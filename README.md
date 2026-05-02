@@ -28,34 +28,6 @@ Standard polygenic risk scores (PRS) are trained on large European-ancestry GWAS
 
 ---
 
-## Repository Structure
-
-```
-IIF_TL_GitHub/
-├── src/
-│   ├── 01_calculate_maf.py            # Compute SNP MAF from IIF genotypes
-│   ├── 02_transfer_learning_weights.py # SNP-level TL weight computation
-│   ├── 03_prs_ukbb.py                 # Baseline PRS evaluation on UKBB
-│   ├── 04_prs_iif_baseline.py         # Cross-population baseline PRS on IIF
-│   ├── 05_prs_iif_tl.py               # TL-adjusted PRS on IIF
-│   ├── 06_normalize_scores.py         # Min-max normalisation of scores
-│   └── 07_integrate_transformer.py    # Merge MetaGeno predictions
-├── data/                              # ⚠ NOT included (see Data Access below)
-│   ├── endo/
-│   │   ├── gwas/                      # GWAS summary statistics (.xlsx)
-│   │   ├── sample/                    # Genotype matrix (.csv)
-│   │   ├── maf_iif.csv
-│   │   └── maf_ukb.csv
-│   └── uf/
-│       ├── gwas/
-│       └── sample/
-├── results/                           # Output files written here
-├── TL.ipynb                           # Full analysis notebook
-├── requirements.txt
-└── .gitignore
-```
-
----
 
 
 ## Installation
