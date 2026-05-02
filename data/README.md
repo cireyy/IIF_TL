@@ -2,32 +2,6 @@
 
 **Raw data files are not included in this repository** due to participant privacy and data governance restrictions.
 
-This directory shows the expected folder structure and file formats needed to run the analysis.
-
----
-
-## Expected Structure
-
-```
-data/
-├── endo/
-│   ├── gwas/
-│   │   ├── gwas_endo_ukb.xlsx      # UKBB endometriosis GWAS summary statistics
-│   │   └── gwas_endo_iif.xlsx      # IIF endometriosis GWAS summary statistics
-│   ├── sample/
-│   │   └── endo_iif.csv            # IIF genotype matrix
-│   ├── maf_ukb.csv                 # UKBB SNP minor allele frequencies
-│   └── maf_iif.csv                 # IIF SNP minor allele frequencies
-├── uf/
-│   ├── gwas/
-│   │   ├── gwas_uf_ukb.xlsx        # UKBB uterine fibroids GWAS (optional)
-│   │   └── gwas_uf_iif.xlsx        # IIF uterine fibroids GWAS (optional)
-│   └── sample/
-│       └── uf_ukb.csv              # UKBB genotype matrix (uterine fibroids)
-├── merged_clinical.xlsx            # IIF clinical metadata (Endo labels, Couple IDs)
-└── 1kg_23_predictions_ENDO.csv     # MetaGeno predicted probabilities (1000 Genomes)
-```
-
 ---
 
 ## File Format Specifications
