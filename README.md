@@ -1,12 +1,9 @@
 # Cross-Ancestry Transfer Learning for Endometriosis Polygenic Risk Prediction
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Code repository for the paper:
 
 > **Cross-Ancestry Transfer Learning for Polygenic Risk Prediction of Endometriosis**  
-> *[Author list — to be updated before submission]*
 
 ---
 
