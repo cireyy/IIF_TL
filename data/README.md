@@ -73,6 +73,5 @@ data/
 
 ## Data Access
 
-- **IIF cohort**: Contact the corresponding author. Data sharing is subject to ethics approval and a Data Access Agreement.
 - **UK Biobank**: Apply via [https://www.ukbiobank.ac.uk](https://www.ukbiobank.ac.uk/enable-your-research/apply-for-access).
 - **GWAS summary statistics**: Publicly available from the [GWAS Catalog](https://www.ebi.ac.uk/gwas/) (search accession numbers provided in the paper).
